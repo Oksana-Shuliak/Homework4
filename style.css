@@ -1,0 +1,138 @@
+/** {
+	border: 1px solid red;
+}*/
+
+.wrapper {
+	padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+}
+
+.header .project_name a{
+	font-size: 24px;
+	color: gray;
+	text-decoration: none;
+}
+
+.header .project_name a:hover {
+	color: #48494e;
+}
+
+.navigation {
+	display: inline-block;
+	width: 100%;
+}
+
+.navigation ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(#dedede,#b1b1b1);
+    border-radius: 6px;
+    max-height: 52px;
+}
+
+.navigation li {
+	float: left;
+	border-right: 1px solid #E2E2E2;
+	text-align: center;
+	width: calc((100% / 6) - 1px);
+}
+
+.navigator li:last-child {
+  border-right-width: 0px;
+}
+
+.navigation li:hover {
+	background: linear-gradient(#BEBDBD,#A1A1A1);
+}
+
+.navigation li a {
+	display: inline-block;
+    color: #5a5959;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: Helvetica Neue;
+}
+
+.marketing_stuff {
+	text-align: center;
+	padding: 48px 60px;
+    background-color: transparent;
+    margin: auto;
+}
+
+.marketing_stuff h1 {
+	font-size: 36px;
+	font-family: inherit;
+}
+
+.marketing_stuff p {
+	font-size: 21px;
+	font-family: Helvetica Neue;
+	word-break: break-all;
+}
+
+.marketing_stuff button {
+	background-color: #77cc7b;
+	color: white;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding: 15px;
+}
+
+.marketing_stuff button:hover {
+	background-color: #6ba76e;
+}
+
+.content .row {
+	display: inline-block;
+	margin-bottom: 40px;
+	width: 100%
+}
+
+.content .row .heading{
+	float: right;
+	width: 31%; 
+	margin: 0 10px;
+}
+
+.heading h1 {
+	font-family: inherit;
+}
+
+.heading p {
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.content .row span {
+	color: #a94442;
+}
+
+.content button {
+	background-color: #4396bb;
+	color: white;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	padding: 10px 25px;
+	font-size: 16px;
+}
+
+.content button:hover {
+	background-color: #4e839a;
+}
+
+.footer {
+	clear: both;
+	padding-top: 15px;
+	border-top: 1px solid #eee;
+}
